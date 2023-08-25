@@ -1,0 +1,80 @@
+.logo{
+    width:200px
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(207, 67, 67);
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    color: aliceblue;
+}
+.nav-items > ul{
+display: flex;
+list-style-type: none;
+}
+
+.Anna {
+  font-family: 'Calligraffitti', cursive;
+  font-weight: 680;
+  font-size: 4rem;
+  position: absolute;
+  text-shadow: -15px 5px 20px #ced0d3;
+  top: 8%;
+  left: 45%;
+  transform: translate(-50%,-50%);
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #e4eadb;
+  text-shadow: 5px 5px 0px #EF1111, 10px 10px 0px #902F2F, 15px 15px 0px #FF80BF, 20px 20px 0px #EF5097, 25px 25px 0px #6868AC, 30px 30px 0px #90B1E0;
+}
+
+
+.nav-items> ul > li{
+    padding: 10px;
+    margin: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.resto-card{
+    width: 180px;
+    height: 410px;
+    background-color:rgb(209, 175, 175);
+    font-style: italic;
+    margin: 18px;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+.resto-container{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-wrap: normal;
+
+}
+.resto-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: inset;
+}
+
+.resto-card> img{
+    margin: 5px;
+    padding: 5px;
+    width: -moz-available;
+    height: fit-content;
+    white-space: 1px;
+    justify-content: center;
+}
+
+.search{
+    padding: 10px;
+}
+.body{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(232, 230, 230);
+}
