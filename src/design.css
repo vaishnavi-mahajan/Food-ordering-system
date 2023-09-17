@@ -11,6 +11,12 @@
     background-color: black;
 }
 
+.loginbtn{
+    padding: 0 20px;
+    cursor: pointer;
+    height: 60px;
+}
+
 .nav-items {
     padding: 0px 20px
 }
@@ -33,9 +39,6 @@
     height: 400px;
 }
 
-.search {
-
-}
 
 .res-container {
     display: flex;
@@ -75,16 +78,9 @@
     cursor: pointer;
 }
 
-.search {
-
-}
-
-.search-box {
-
-}
-
 .filter {
     display: flex;
+    margin: 10px
 }
 .avgrating{
     background: linear-gradient(to right, #1c87c9 20%, #fbfbfa 80%);
